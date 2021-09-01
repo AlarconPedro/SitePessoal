@@ -20,7 +20,7 @@ export const Sobre = () => {
                             <h5 class="card-title">Suporte Técnico</h5>
                             <p class="card-text">2 anos e meio de experiência trabalhando como suporte técnico.</p>
                             <p>2015 - 2017</p>
-                            <a href="#" class="btn btn-primary">Mais</a>
+                            <a href="./Curriculo/index.jsx" class="btn btn-primary">Mais</a>
                         </div>
                         </div>
                     </div>
@@ -30,7 +30,7 @@ export const Sobre = () => {
                             <h5 class="card-title">Estágio em T.I</h5>
                             <p class="card-text">1 ano de eperiência no setor de T.I</p>
                             <p>2017 - 2018</p>
-                            <a href="#" class="btn btn-primary">Mais</a>
+                            <a href="./Curriculo/index.jsx" class="btn btn-primary">Mais</a>
                         </div>
                         </div>
                     </div>
@@ -40,7 +40,7 @@ export const Sobre = () => {
                             <h5 class="card-title">Trabalho no Setor de T.I</h5>
                             <p class="card-text">Experiência profissional na área de T.I como auxiliar.</p>
                             <p>2020 - Atualmente</p>
-                            <a href="#" class="btn btn-primary">Mais</a>
+                            <a href="./Curriculo/index.jsx" class="btn btn-primary">Mais</a>
                         </div>
                         </div>
                     </div>
