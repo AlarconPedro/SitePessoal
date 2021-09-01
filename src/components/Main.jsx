@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 export const Header = () => {
     return(
         <>
-            <nav className="navbar navbar-expand-lg bg-secondary bg-gradient">
+            <nav className="navbar navbar-expand-lg bg-gradient ">
                 <Link to={'/home'}
                 className="navbar-brand">
                 </Link>
@@ -36,6 +36,9 @@ export const Header = () => {
                         </li>
                     </ul>
                 </div>
+                <div className="nav-name">
+                    <h4>Pedro H. Alarcon</h4>
+                </div>
             </nav>
         </>
     )
@@ -44,23 +47,18 @@ export const Header = () => {
 export const Footer = () => {
     return(
         <>
-            <footer className="text-center bg-black">
+            <footer className="text-center bg-gradient bg-black">
                 <p>Desenvolvido por Alarcon</p>
             </footer>
         </>
     )
 }
 
-export const Video = props => {
+export const Imagem = props => {
     return(
-        <>  <div className="col-12 col-md-4">
-                <div className="card">
-                    <iframe width="100%" height="320"
-                    src={`https://youtube.com/embed/${props.Videos}`}></iframe>
-                    <div className="card-body">
-                        <h3>{props.titulo}</h3>
-                    </div>
-                </div>
+        <>
+            <div id="imagem">
+                <img src={props.imagem} alt={props.titulo} title={props.title} className="w-100" />
             </div>
         </>
     )
