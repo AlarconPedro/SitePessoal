@@ -1,7 +1,7 @@
 export const Contato = () => {
     return(
         <>
-            <h1>Contato :</h1>
+            <h1 className="rounded-pill col-sm-2">Contato :</h1>
             <div className="container-fluid">
                 <h3>experiências:</h3>
                 <p>Este é meu site pessoal, cujo intuito é ter um portfolio online aonde seja mais fácil de outras pessoas conhecerem meu trabalho,

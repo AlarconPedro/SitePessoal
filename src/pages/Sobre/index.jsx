@@ -1,9 +1,7 @@
-import { Imagem } from '../../components/Main';
-
 export const Sobre = () => {
     return (
         <>
-            <h1 className="text-left">Sobre minhas experiências :</h1>
+            <h1 className="rounded-pill col-sm-5">Sobre minhas experiências :</h1>
             <div className="container-fluid ">
                 <h3>experiências:</h3>
                 <p>Este é meu site pessoal, cujo intuito é ter um portfolio online aonde seja mais fácil de outras pessoas conhecerem meu trabalho,
@@ -12,8 +10,9 @@ export const Sobre = () => {
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 </p>
             </div>
-            <Imagem titulo="Background" imagem="images/code2.jpg"></Imagem>
-            <div className="container text-justify background">
+            <div className="background">
+            {/* <Imagem titulo="Background" imagem="images/code2.jpg"></Imagem> */}
+            <div className="container text-justify">
                 <div class="row w-100">
                     <div class="col-sm-4">
                         <div class="card border border-3">
@@ -47,14 +46,26 @@ export const Sobre = () => {
                     </div>
                 </div>
             </div>
-            <div className="container-fluid">
-                <h3>experiências:</h3>
-                <p>Este é meu site pessoal, cujo intuito é ter um portfolio online aonde seja mais fácil de outras pessoas conhecerem meu trabalho,
-                e minhas experiências na área de Desenvolvimento.</p>
-                <p>neste site serão encontradas informações sobre minha experiência profissional e meus projetos e mine projetos que foram desenvolvidos até agora.
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                </p>
             </div>
+            <div className="row">            
+                <div className="container-fluid col col-md-4 border border-primary rounded">
+                    <h3>Experiências:</h3>
+                    <p>Este é meu site pessoal, cujo intuito é ter um portfolio online aonde seja mais fácil de outras pessoas conhecerem meu trabalho,
+                    e minhas experiências na área de Desenvolvimento.</p>
+                    <p>neste site serão encontradas informações sobre minha experiência profissional e meus projetos e mine projetos que foram desenvolvidos até agora.
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    </p>
+                </div>
+                    <div className="container-fluid col col-md-4 border border-primary rounded">
+                    <h3>Experiências:</h3>
+                    <p>Este é meu site pessoal, cujo intuito é ter um portfolio online aonde seja mais fácil de outras pessoas conhecerem meu trabalho,
+                    e minhas experiências na área de Desenvolvimento.</p>
+                    <p>neste site serão encontradas informações sobre minha experiência profissional e meus projetos e mine projetos que foram desenvolvidos até agora.
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    </p>
+                </div>
+            </div>
+
         </>
     )
 }

@@ -58,7 +58,7 @@ export const Imagem = props => {
     return(
         <>
             <div id="imagem">
-                <img src={props.imagem} alt={props.titulo} title={props.title} className="w-100" />
+                <img src={props.imagem} alt={props.titulo} title={props.title} className="w-100"/>
             </div>
         </>
     )

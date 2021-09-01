@@ -2,7 +2,7 @@ export const Home = () => {
     return (
         <>
             <div className="container text-left">
-                <h1>Home</h1>
+                <h1 className="rounded-pill col col-sm-2">Home :</h1>
                 <h3>Meu site pessoal: </h3>
                     <p>Este é meu site pessoal, cujo intuito é ter um portfolio online aonde seja mais fácil de outras pessoas conhecerem meu trabalho,
                     e minhas experiências na área de Desenvolvimento.</p>
